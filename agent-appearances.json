@@ -1,0 +1,22 @@
+{
+  "paradox": {
+    "preset": "ghost",
+    "updatedAt": 1771396101428
+  },
+  "nexus": {
+    "preset": "mech",
+    "updatedAt": 1771396081448
+  },
+  "nova": {
+    "preset": "human",
+    "updatedAt": 1771396062582
+  },
+  "liam": {
+    "preset": "human",
+    "updatedAt": 1771396071831
+  },
+  "cipher": {
+    "preset": "orb",
+    "updatedAt": 1771396046171
+  }
+}

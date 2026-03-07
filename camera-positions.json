@@ -1,0 +1,186 @@
+{
+  "cameras": [
+    {
+      "id": "front-overview",
+      "label": "Front Wall Overview",
+      "desc": "Wide view of front wall with command center, TVs, agents facing screens",
+      "position": { "x": 0, "y": 2.5, "z": 8 },
+      "target": { "x": 0, "y": 1, "z": -8 }
+    },
+    {
+      "id": "agents-working",
+      "label": "Agents at Work",
+      "desc": "Side angle of all agent workstations, showing team collaboration",
+      "position": { "x": -8, "y": 1.8, "z": 0 },
+      "target": { "x": 0, "y": 1, "z": -2 }
+    },
+    {
+      "id": "hardware-bench",
+      "label": "Hardware Bench",
+      "desc": "Close-up of hardware bench with all devices and monitors",
+      "position": { "x": 10.2, "y": 2, "z": 4 },
+      "target": { "x": 10.2, "y": 1, "z": 2 }
+    },
+    {
+      "id": "lounge-area",
+      "label": "Lounge Area",
+      "desc": "Back wall lounge with couch, bean bags, chill zone",
+      "position": { "x": 0, "y": 2, "z": -10 },
+      "target": { "x": 0, "y": 0.5, "z": 8 }
+    },
+    {
+      "id": "command-center",
+      "label": "Command Center",
+      "desc": "Centered on main front screen, TV array, neural nexus",
+      "position": { "x": 0, "y": 2, "z": 5 },
+      "target": { "x": 0, "y": 1.5, "z": -8 }
+    },
+    {
+      "id": "birds-eye",
+      "label": "Birds Eye View",
+      "desc": "Top-down overview of entire lab layout",
+      "position": { "x": 0, "y": 8, "z": 0 },
+      "target": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "id": "agent-nova",
+      "label": "Nova's Desk",
+      "desc": "Close-up of Nova's workstation",
+      "position": { "x": 2.5, "y": 1.5, "z": -5 },
+      "target": { "x": 2, "y": 0.7, "z": -8 }
+    },
+    {
+      "id": "agent-nexus",
+      "label": "Nexus's Desk",
+      "desc": "Close-up of Nexus's workstation",
+      "position": { "x": -2.5, "y": 1.5, "z": -5 },
+      "target": { "x": -2, "y": 0.7, "z": -8 }
+    },
+    {
+      "id": "agent-paradox",
+      "label": "Paradox's Desk",
+      "desc": "Close-up of Paradox's workstation",
+      "position": { "x": 6.5, "y": 1.5, "z": -5 },
+      "target": { "x": 6, "y": 0.7, "z": -8 }
+    },
+    {
+      "id": "whiteboard",
+      "label": "Strategy Whiteboard",
+      "desc": "Left wall whiteboard with diagrams and notes",
+      "position": { "x": -12, "y": 1.5, "z": -2 },
+      "target": { "x": -11, "y": 1.5, "z": -2 }
+    },
+    {
+      "id": "kanban-board",
+      "label": "Kanban Task Board",
+      "desc": "Right wall kanban board with tickets",
+      "position": { "x": 12, "y": 1.5, "z": -2 },
+      "target": { "x": 11, "y": 1.5, "z": -2 }
+    },
+    {
+      "id": "server-rack",
+      "label": "Server Rack",
+      "desc": "Infrastructure rack with blinking lights",
+      "position": { "x": -10, "y": 1.5, "z": 5 },
+      "target": { "x": -11, "y": 1.2, "z": 5 }
+    },
+    {
+      "id": "bookshelf",
+      "label": "Knowledge Library",
+      "desc": "Bookshelf with tech references and documentation",
+      "position": { "x": 11, "y": 1.5, "z": 6 },
+      "target": { "x": 11, "y": 1.2, "z": 5 }
+    },
+    {
+      "id": "water-cooler",
+      "label": "Water Cooler Zone",
+      "desc": "Social hub where agents chat and collaborate",
+      "position": { "x": -8, "y": 1.5, "z": 7 },
+      "target": { "x": -8, "y": 0.8, "z": 6 }
+    },
+    {
+      "id": "entrance",
+      "label": "Lab Entrance",
+      "desc": "View from entry door looking into the lab",
+      "position": { "x": -12, "y": 1.6, "z": 9 },
+      "target": { "x": 0, "y": 1, "z": 0 }
+    },
+    {
+      "id": "cinematic-pan",
+      "label": "Cinematic Pan",
+      "desc": "Dramatic angle sweeping across workstations",
+      "position": { "x": -10, "y": 2.5, "z": -6 },
+      "target": { "x": 8, "y": 0.7, "z": -8 }
+    },
+    {
+      "id": "floor-level",
+      "label": "Floor Level Action",
+      "desc": "Ground-level perspective showing agent activity",
+      "position": { "x": 0, "y": 0.5, "z": 2 },
+      "target": { "x": 0, "y": 0.7, "z": -4 }
+    },
+    {
+      "id": "corner-overview",
+      "label": "Corner Overview",
+      "desc": "Diagonal view capturing entire lab from corner",
+      "position": { "x": -11, "y": 3, "z": -8 },
+      "target": { "x": 8, "y": 0.5, "z": 6 }
+    },
+    {
+      "id": "tv-screens",
+      "label": "Live TV Array",
+      "desc": "Close-up of front wall live TV screens showing data",
+      "position": { "x": 0, "y": 2.2, "z": -6 },
+      "target": { "x": 0, "y": 2, "z": -8.5 }
+    },
+    {
+      "id": "overseer",
+      "label": "Dan's Oversight Position",
+      "desc": "View from where Dan observes the team",
+      "position": { "x": 0, "y": 3, "z": 10 },
+      "target": { "x": 0, "y": 1.5, "z": -5 }
+    },
+    {
+      "id": "agent-huddle",
+      "label": "Team Huddle",
+      "desc": "Close group shot of all agents at desks",
+      "position": { "x": 0, "y": 1.2, "z": -2 },
+      "target": { "x": 0, "y": 0.8, "z": -8 }
+    },
+    {
+      "id": "night-mode",
+      "label": "Night Operations",
+      "desc": "Moody angle for late-night work scenes",
+      "position": { "x": -6, "y": 1.3, "z": 3 },
+      "target": { "x": 2, "y": 0.9, "z": -6 }
+    },
+    {
+      "id": "hardware-closeup",
+      "label": "Hardware Detail",
+      "desc": "Extreme close-up of monitor array on bench",
+      "position": { "x": 10.2, "y": 1.6, "z": 2.5 },
+      "target": { "x": 10.2, "y": 1.6, "z": 2 }
+    },
+    {
+      "id": "activity-tracking",
+      "label": "Activity Timeline",
+      "desc": "View of timeline visualization on left wall",
+      "position": { "x": -8, "y": 1.5, "z": -5 },
+      "target": { "x": -11.5, "y": 1.5, "z": 0 }
+    },
+    {
+      "id": "conference-angle",
+      "label": "Conference Room View",
+      "desc": "Professional angle for team meetings and presentations",
+      "position": { "x": 0, "y": 1.8, "z": 10 },
+      "target": { "x": 0, "y": 1.2, "z": -5 }
+    },
+    {
+      "id": "coffee-table",
+      "label": "Coffee Table Close-up",
+      "desc": "Close view of coffee table with Epstein Files folder",
+      "position": { "x": -4, "y": 1.2, "z": 8 },
+      "target": { "x": -6.5, "y": 0.4, "z": 7 }
+    }
+  ]
+}

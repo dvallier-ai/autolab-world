@@ -1,0 +1,34 @@
+{
+  "network": {
+    "port": 3333,
+    "gateways": [
+      {
+        "url": "ws://localhost:18789",
+        "label": "Primary Gateway",
+        "token": ""
+      }
+    ]
+  },
+  "overseer": {
+    "name": "Admin",
+    "displayName": "Overseer"
+  },
+  "devices": [
+    {
+      "id": "local-machine",
+      "name": "Local Gateway",
+      "icon": "🖥️",
+      "color": "#4a9eff",
+      "desc": "Primary gateway host",
+      "host": "localhost",
+      "user": "admin",
+      "isLocal": true,
+      "services": [
+        { "id": "ssh", "label": "🔐 SSH Terminal", "type": "ssh" },
+        { "id": "gateway", "label": "🌐 Gateway API", "type": "http", "port": 18789, "path": "/" },
+        { "id": "autolab", "label": "🪄 AutoLab", "type": "http", "port": 3333, "path": "/" }
+      ]
+    }
+  ],
+  "agents": []
+}

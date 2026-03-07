@@ -1,0 +1,19 @@
+═══════════════════════════════════
+  AUTOLAB WHITEBOARD
+═══════════════════════════════════
+
+TODO:
+  [ ] More interactive objects
+  [ ] Agent cogwheel menus
+  [ ] Drag & drop furniture
+  [ ] External kanban sync
+
+IDEAS:
+  - Weather widget on wall screen?
+  - Music player integration?
+  - Webcam feed on monitor?
+
+NOTES:
+  Write anything here — it saves!
+
+a board for adding random notes and shit

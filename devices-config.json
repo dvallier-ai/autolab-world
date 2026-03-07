@@ -1,0 +1,29 @@
+{
+  "defaultUser": "overseer",
+  "machines": [
+    {
+      "id": "maca",
+      "label": "MacA (Nova)",
+      "host": "192.168.1.10",
+      "user": "user",
+      "quickLinks": []
+    },
+    {
+      "id": "macb",
+      "label": "MacB (Assistant)",
+      "host": "192.168.1.11",
+      "user": "user",
+      "quickLinks": [
+        { "label": "🎲 Dashboard", "url": "http://192.168.1.11:3200" },
+        { "label": "📋 Kanban Board", "url": "http://192.168.1.10:3100" }
+      ]
+    },
+    {
+      "id": "laptop",
+      "label": "Laptop (Mobile)",
+      "host": "laptop.local",
+      "user": "user",
+      "quickLinks": []
+    }
+  ]
+}

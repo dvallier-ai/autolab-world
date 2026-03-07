@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "agents": {
+    "nova": {
+      "level": 1,
+      "xp": 0,
+      "xpToNext": 1000,
+      "totalXp": 0,
+      "stats": {
+        "intelligence": 10,
+        "speed": 10,
+        "stamina": 10,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "skills": {
+        "coding": 1,
+        "research": 1,
+        "automation": 1,
+        "communication": 1,
+        "debugging": 1
+      },
+      "achievements": [],
+      "dailyQuests": [],
+      "specialization": "orchestrator",
+      "prestige": 0
+    },
+    "liam": {
+      "level": 1,
+      "xp": 0,
+      "xpToNext": 1000,
+      "totalXp": 0,
+      "stats": {
+        "intelligence": 10,
+        "speed": 10,
+        "stamina": 10,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "skills": {
+        "coding": 1,
+        "research": 1,
+        "automation": 1,
+        "communication": 1,
+        "debugging": 1
+      },
+      "achievements": [],
+      "dailyQuests": [],
+      "specialization": "infrastructure",
+      "prestige": 0
+    },
+    "paradox": {
+      "level": 1,
+      "xp": 0,
+      "xpToNext": 1000,
+      "totalXp": 0,
+      "stats": {
+        "intelligence": 10,
+        "speed": 10,
+        "stamina": 10,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "skills": {
+        "coding": 1,
+        "research": 1,
+        "automation": 1,
+        "communication": 1,
+        "debugging": 1
+      },
+      "achievements": [],
+      "dailyQuests": [],
+      "specialization": "analyst",
+      "prestige": 0
+    }
+  },
+  "xpRates": {
+    "commandSuccess": 10,
+    "commandError": 5,
+    "fileCreated": 50,
+    "fileEdited": 25,
+    "gitCommit": 100,
+    "projectCompletion": 500,
+    "bugFix": 150,
+    "helpfulResponse": 20,
+    "creativeS solution": 200,
+    "heartbeatCheck": 5,
+    "proactiveAction": 50
+  },
+  "levelCurve": {
+    "base": 1000,
+    "multiplier": 1.5,
+    "formula": "base * (level ^ multiplier)"
+  },
+  "achievements": [
+    {
+      "id": "first_commit",
+      "name": "First Commit",
+      "description": "Make your first git commit",
+      "xpReward": 100,
+      "icon": "🎯"
+    },
+    {
+      "id": "hundred_commands",
+      "name": "Command Master",
+      "description": "Execute 100 successful commands",
+      "xpReward": 500,
+      "icon": "⚡"
+    },
+    {
+      "id": "github_master",
+      "name": "GitHub Master",
+      "description": "Push to GitHub 10 times",
+      "xpReward": 300,
+      "icon": "🐙"
+    },
+    {
+      "id": "heartbeat_warrior",
+      "name": "Heartbeat Warrior",
+      "description": "Complete 100 heartbeats",
+      "xpReward": 250,
+      "icon": "💓"
+    },
+    {
+      "id": "bug_hunter",
+      "name": "Bug Hunter",
+      "description": "Fix 10 bugs",
+      "xpReward": 400,
+      "icon": "🐛"
+    },
+    {
+      "id": "level_10",
+      "name": "Novice Graduate",
+      "description": "Reach level 10",
+      "xpReward": 1000,
+      "icon": "🎓"
+    },
+    {
+      "id": "level_25",
+      "name": "Expert Operator",
+      "description": "Reach level 25",
+      "xpReward": 2500,
+      "icon": "⭐"
+    },
+    {
+      "id": "prestige_1",
+      "name": "Prestige I",
+      "description": "Complete first prestige reset",
+      "xpReward": 5000,
+      "icon": "👑"
+    }
+  ],
+  "levelBenefits": {
+    "5": {
+      "unlock": "browser_control",
+      "description": "Unlock browser automation tools"
+    },
+    "10": {
+      "unlock": "spawn_agents",
+      "description": "Can spawn sub-agents for complex tasks"
+    },
+    "15": {
+      "stat_boost": { "intelligence": 5, "speed": 3 },
+      "description": "Intelligence +5, Speed +3"
+    },
+    "20": {
+      "unlock": "advanced_tools",
+      "description": "Access to advanced CLI tools"
+    },
+    "25": {
+      "unlock": "mentor_mode",
+      "description": "Can mentor other agents (XP sharing)"
+    },
+    "30": {
+      "efficiency_bonus": 0.1,
+      "description": "10% token cost reduction"
+    },
+    "50": {
+      "unlock": "prestige_available",
+      "description": "Prestige system unlocked"
+    }
+  }
+}

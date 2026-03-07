@@ -1,0 +1,202 @@
+{
+  "title": "AutoLab Kanban",
+  "columns": [
+    {
+      "name": "BACKLOG",
+      "color": "#ff6b6b",
+      "cards": [
+        {
+          "id": "K-018",
+          "text": "Deployable package (Docker, npm publish, GitHub release) — strip all personal data, network refs, credentials before shipping",
+          "tag": "infra"
+        },
+        {
+          "id": "K-015",
+          "text": "Drag & drop furniture rearrangement — click to move/rotate, save layout to JSON",
+          "tag": "feature"
+        },
+        {
+          "id": "K-017",
+          "text": "External kanban sync (GitHub Projects, Trello, etc.)",
+          "tag": "integration"
+        },
+        {
+          "id": "K-034",
+          "text": "Timeline v2: Agent lanes, backfill, shaped markers, color legend",
+          "tag": "feature"
+        },
+        {
+          "id": "K-013",
+          "text": "Ceiling with lights (cosmetic lighting, controllable from settings)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-046",
+          "text": "Multi-room support — door/hallway to other rooms for additional agents (Nexus room, Cipher room)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-011",
+          "text": "Agent config editor (per-agent: model, workspace, identity, routing)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-014",
+          "text": "Agent registration/signup flow for new deployments",
+          "tag": "feature"
+        },
+        {
+          "id": "K-048",
+          "text": "External site embeds — embed live dashboards (World Monitor, etc.) on wall screens or as interactive objects in the 3D world",
+          "tag": "feature"
+        }
+      ]
+    },
+    {
+      "name": "TODO",
+      "color": "#ffaa4a",
+      "cards": []
+    },
+    {
+      "name": "DOING",
+      "color": "#44aaff",
+      "cards": []
+    },
+    {
+      "name": "DONE",
+      "color": "#4ade80",
+      "cards": [
+        {
+          "id": "K-mljnbtjx",
+          "text": "Invert mouse controls option in settings",
+          "tag": "feature"
+        },
+        {
+          "id": "K-006",
+          "text": "Live wall clock",
+          "tag": "feature"
+        },
+        {
+          "id": "K-007",
+          "text": "Chat history + copy",
+          "tag": "feature"
+        },
+        {
+          "id": "K-008",
+          "text": "Speech bubbles",
+          "tag": "feature"
+        },
+        {
+          "id": "K-009",
+          "text": "UI toggle system",
+          "tag": "feature"
+        },
+        {
+          "id": "K-004",
+          "text": "Interactive kanban board",
+          "tag": "feature"
+        },
+        {
+          "id": "K-005",
+          "text": "Rebrand to AutoLab",
+          "tag": "infra"
+        },
+        {
+          "id": "K-030",
+          "text": "WASD + arrow key camera",
+          "tag": "feature"
+        },
+        {
+          "id": "K-031",
+          "text": "5 clickable room objects",
+          "tag": "feature"
+        },
+        {
+          "id": "K-032",
+          "text": "Click-outside-to-close overlays",
+          "tag": "feature"
+        },
+        {
+          "id": "K-033",
+          "text": "OpenClaw branch preserved",
+          "tag": "infra"
+        },
+        {
+          "id": "K-020",
+          "text": "Settings cogwheel panel (brightness, ambient, fog, gateway info)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-035",
+          "text": "Selective bloom post-processing",
+          "tag": "feature"
+        },
+        {
+          "id": "K-036",
+          "text": "Hardware workbench with clickable devices + service launchers",
+          "tag": "feature"
+        },
+        {
+          "id": "K-037",
+          "text": "Idle agent activities (8 types: trash hoops, darts, coffee, etc.)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-038",
+          "text": "Live TV dashboards (Hive Status, System Resources, Event Feed)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-039",
+          "text": "Character customization (9 types: holo, robot, mech, alien, orb, ghost, tank, human)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-010",
+          "text": "Multi-gateway support (MacA + MacB/Nexus)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-016",
+          "text": "Agent cosmetic editor (avatar style, color, desk items)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-040",
+          "text": "Water cooler chats — agents periodically meet, discuss improvements, projects, training, issues. Speech bubbles + kanban integration",
+          "tag": "feature"
+        },
+        {
+          "id": "K-041",
+          "text": "Agent monitor live feed — click desk monitor → scrolling real-time feed of tool calls, messages, activity",
+          "tag": "feature"
+        },
+        {
+          "id": "K-042",
+          "text": "Sound design — ambient office hum, typing sounds, event chimes, walk sounds. Mute button next to ⚙️",
+          "tag": "feature"
+        },
+        {
+          "id": "K-043",
+          "text": "Agent mood/status indicators — floating emoji or color aura above agents (🔥 busy, 😴 idle, 🤔 thinking, ⚡ processing)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-044",
+          "text": "Day/night cycle — ambient light shifts based on real time (warm at night, bright during day)",
+          "tag": "feature"
+        },
+        {
+          "id": "K-047",
+          "text": "Dynamic desk placement — auto-arrange desks to avoid overlap/clipping when agents are added/removed",
+          "tag": "feature"
+        },
+        {
+          "id": "K-mlk5d5fu",
+          "text": "edit overseer user",
+          "tag": "feature"
+        }
+      ]
+    }
+  ]
+}
