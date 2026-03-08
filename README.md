@@ -70,7 +70,7 @@ Copy `autolab-config.example.json` to `autolab-config.json` and edit:
 }
 ```
 
-For gateway token, see [AutoLab docs](https://docs.autolab.ai).
+For gateway token, see [AutoLab docs](https://github.com/dvallier-ai/autolab-public/tree/main/docs).
 
 ---
 
