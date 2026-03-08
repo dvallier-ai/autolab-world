@@ -37,7 +37,7 @@ Real-time 3D environment built with Three.js that visualizes AI agents, their ac
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/autolab-virtual-world-public.git
+git clone https://github.com/dvallier-ai/autolab-world.git
 cd autolab-virtual-world-public
 npm install
 npm start
@@ -219,7 +219,7 @@ Inspired by production AI ops dashboards and the need for better agent observabi
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/autolab-virtual-world-public/issues)
+- **Issues:** [GitHub Issues](https://github.com/dvallier-ai/autolab-world/issues)
 - **Docs:** [docs/](docs/)
 - **Community:** [Discord](https://discord.com/invite/clawd) (OpenClaw community)
 
