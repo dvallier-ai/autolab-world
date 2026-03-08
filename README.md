@@ -1,8 +1,13 @@
-# AutoLab Virtual World (Public Release)
+# AutoLab Virtual World
+
+<p align="center">
+  <a href="https://github.com/dvallier-ai/autolab-world/releases"><img src="https://img.shields.io/github/v/release/dvallier-ai/autolab-world?style=for-the-badge" alt="GitHub release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
+</p>
 
 **A 3D virtual world visualization for AI agent orchestration**
 
-Real-time 3D environment built with Three.js that visualizes AI agents, their activity, resource usage, and communications. Perfect for multi-agent systems running on [OpenClaw/AutoLab](https://github.com/autolab).
+Real-time 3D environment built with Three.js that visualizes AI agents, their activity, resource usage, and communications. Perfect for multi-agent systems running on [AutoLab](https://github.com/dvallier-ai/autolab-public).
 
 ![AutoLab Virtual World](screenshot.png)
 
