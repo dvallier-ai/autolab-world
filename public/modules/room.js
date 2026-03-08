@@ -154,12 +154,12 @@ export function createRoom(scene) {
     const worldMonitor = createWallScreen(5.0, 2.5, 0x4a9eff, 'world-monitor');
     // Higher up (center 3.8, height 2.5 -> range 2.55 to 5.05)
     worldMonitor.position.set(0, 3.8, -ROOM.depth / 2 + 0.12);
-    worldMonitor.userData.url = 'http://192.168.254.222:3000/';
+    worldMonitor.userData.url = 'http://localhost:3000/';
     worldMonitor.userData.clickable = 'world-monitor';
     // Also set clickable on the mesh itself for raycaster
     if (worldMonitor.userData.screenMesh) {
         worldMonitor.userData.screenMesh.userData.clickable = 'world-monitor';
-        worldMonitor.userData.screenMesh.userData.url = 'http://192.168.254.222:3000/';
+        worldMonitor.userData.screenMesh.userData.url = 'http://localhost:3000/';
     }
     group.add(worldMonitor);
     animatables.push({ type: 'liveScreen', mesh: worldMonitor });
@@ -250,7 +250,7 @@ export function createRoom(scene) {
     const epsteinFiles = createFolderStack();
     epsteinFiles.position.set(-ROOM.width / 2 + 4.3, 0.37, ROOM.depth / 2 - 2.1);
     epsteinFiles.userData.interactive = 'epstein-files';
-    epsteinFiles.userData.url = 'http://192.168.254.221:5101/documents';
+    epsteinFiles.userData.url = 'http://localhost:5101/documents';
     group.add(epsteinFiles);
     
     // ── Bookshelf on left wall ────────────────────────────────
@@ -368,12 +368,12 @@ export function createRoom(scene) {
     const tradingScreen = createWallScreen(4.5, 2.8, 0xFF9800, 'trading-dashboard');
     tradingScreen.position.set(ROOM.width / 2 - 0.12, 3.0, 6.5);
     tradingScreen.rotation.y = -Math.PI / 2; // Face left (into room)
-    tradingScreen.userData.url = 'http://192.168.254.222:3200/#overview';
+    tradingScreen.userData.url = 'http://localhost:3200/#overview';
     tradingScreen.userData.clickable = 'trading-dashboard';
     // Make the screen mesh clickable too
     if (tradingScreen.userData.screenMesh) {
         tradingScreen.userData.screenMesh.userData.clickable = 'trading-dashboard';
-        tradingScreen.userData.screenMesh.userData.url = 'http://192.168.254.222:3200/#overview';
+        tradingScreen.userData.screenMesh.userData.url = 'http://localhost:3200/#overview';
     }
     group.add(tradingScreen);
     animatables.push({ type: 'liveScreen', mesh: tradingScreen });
@@ -1071,7 +1071,7 @@ function drawWorldMonitorScreen(screen, time, liveData) {
     // URL
     ctx.font = '10px monospace';
     ctx.fillStyle = '#666';
-    const url = screen.userData.url || 'http://192.168.254.222:3000/';
+    const url = screen.userData.url || 'http://localhost:3000/';
     ctx.fillText(url, 12, 46);
     
     // Message
@@ -1114,7 +1114,7 @@ function drawTradingDashboardScreen(screen, time, liveData) {
     // URL subtitle
     ctx.font = '9px monospace';
     ctx.fillStyle = '#666';
-    const url = screen.userData.url || 'http://192.168.254.222:3200/#overview';
+    const url = screen.userData.url || 'http://localhost:3200/#overview';
     ctx.fillText(url, 14, 50);
     
     // Fake chart visualization

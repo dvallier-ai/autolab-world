@@ -4644,7 +4644,7 @@ function openCoffeeMug() {
 
 function openEpsteinFiles() {
     // Open Epstein Files explorer in new tab
-    const url = 'http://192.168.254.221:5101/documents';
+    const url = 'http://localhost:5101/documents';
     window.open(url, '_blank', 'noopener,noreferrer');
     
     // Optional: Show brief notification

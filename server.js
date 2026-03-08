@@ -415,9 +415,9 @@ for (const gw of config.network.gateways) {
         }
     }
 }
-// Fallback: first config gateway = nova-mac
-if (!gatewayTokens['nova-mac'] && config.network.gateways[0]?.token) {
-    gatewayTokens['nova-mac'] = config.network.gateways[0].token;
+// Fallback: first config gateway = machine-a
+if (!gatewayTokens['machine-a'] && config.network.gateways[0]?.token) {
+    gatewayTokens['machine-a'] = config.network.gateways[0].token;
 }
 
 async function initGateways() {

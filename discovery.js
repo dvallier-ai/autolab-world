@@ -11,23 +11,23 @@ import dns from 'dns';
 // ─── Known Machine Registry ─────────────────────────────────
 // MAC address is the canonical identity. Everything else can change.
 const MACHINE_REGISTRY = {
-    'nova-mac': {
-        mac: 'a4:fc:14:13:02:b3',
-        hostnames: ['nova-mac.local', 'nova-mac.home'],
+    'machine-a': {
+        mac: 'aa:bb:cc:dd:ee:01',
+        hostnames: ['machine-a.local', 'machine-a.home'],
         gatewayPort: 18789,
         label: 'MacA (Nova)',
         local: true  // This machine — always 127.0.0.1
     },
     'macb': {
-        mac: 'a4:fc:14:16:6f:74',
-        hostnames: ['unknowna4fc14166f74.local', 'unknowna4fc14166f74.home'],
+        mac: 'aa:bb:cc:dd:ee:02',
+        hostnames: ['machine-b.local', 'machine-b.home'],
         gatewayPort: 18789,
         tunnelPort: 18790,  // SSH tunnel for loopback-bound gateways
         label: 'MacB (Liam)',
         loopbackOnly: true  // Gateway bound to loopback — needs tunnel
     },
     'cipher': {
-        mac: 'f4:28:9d:05:0c:37',
+        mac: 'aa:bb:cc:dd:ee:03',
         hostnames: ['laptop.local', 'laptop.home', 'device-3.local'],
         gatewayPort: 18789,
         label: 'Cipher (laptop)',
@@ -189,7 +189,7 @@ function getArpTable() {
             // Format: hostname (ip) at mac on interface [type]
             const match = line.match(/\((\d+\.\d+\.\d+\.\d+)\)\s+at\s+([\da-f:]+)/i);
             if (match) {
-                // Normalize MAC: arp may omit leading zeros (a4:fc:14:13:2:b3 vs a4:fc:14:13:02:b3)
+                // Normalize MAC: arp may omit leading zeros (aa:bb:cc:dd:ee:01 vs aa:bb:cc:dd:ee:01)
                 const mac = match[2].split(':').map(o => o.padStart(2, '0')).join(':').toLowerCase();
                 entries.push({ ip: match[1], mac });
             }
