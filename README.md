@@ -4,7 +4,7 @@
 
 Real-time 3D environment built with Three.js that visualizes AI agents, their activity, resource usage, and communications. Perfect for multi-agent systems running on [OpenClaw/AutoLab](https://github.com/autolab).
 
-![AutoLab Virtual World](https://via.placeholder.com/800x400/1a1a2e/4a9eff?text=AutoLab+Virtual+World)
+![AutoLab Virtual World](screenshot.png)
 
 ---
 
